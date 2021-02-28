@@ -4,9 +4,13 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^7.1",
+        "ext-curl": "*",
         "topthink/framework": "^6.0.7",
         "symfony/polyfill-php80": "^1",
         "symfony/polyfill-php73": "^1"
+    },
+    "require-dev": {
+        "composer/ca-bundle": "^1.2"
     },
     "autoload": {
         "psr-4": {
